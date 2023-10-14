@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    font-family: 'Bowlby One', cursive;
+    letter-spacing: 5px;
+}
+nav{
+    background-color: #15c1e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    background-color: black;
+    height: 100%;
+    padding: 25px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav a:hover{
+    padding-block: 45px;
+}
+li{
+    height: 100%;
+}
+.lobby{
+    background-color: #ffa200;
+}
+.about{
+    background-color: #9bba1f;
+}
+.events{
+    background-color: #f73f3f;
+}
+#papa{
+    height: 89vh;
+    background-color: darkred;
+    background-image: url("https://images3.alphacoders.com/280/280917.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* End Of Header */
+/* Beginning Of Main */
+#bruh{
+    background-color: #9bba1f;
+    display: flex;
+    padding: 30px 80px;
+    color: white;
+}
+#bruh h2{
+    font-size: 40px;
+}
+#bruh p{
+    width: 80%;
+    margin-block: 40px;
+}
+#bruh button{
+    background-color: #f73f3f;
+    color: white;
+    font-size: 30px;
+    padding: 30px 40px;
+    font-weight: bold;
+    border: none;
+
+}
+#bruh button:hover{
+    background-color: #15c1e5;
+    cursor: pointer;
+}
+#smaller{
+    font-size: 25px;
+}
+#bigger{
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 900;
+}
+#welcome, #images{
+    width: 50%;
+}
+#images img{
+    width: 100%;
+}
+/* End Of Section 1 */
+/* Beginning Of Section 2 */
+#second-papa{
+    display: flex;
+    background-color: #f73f3f;
+    color: white;
+    padding: 80px;
+    gap: 40px;
+}
+#second-papa img{
+    margin-block: 40px;
+    width: 100%;
+}
+#second-papa h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#second-papa p{
+    margin-block: 20px;
+    font-size: 25px;
+}
+.thicker{
+    font-weight: bolder;
+    font-size: 28px;
+}
+button{
+    background-color: red;
+        color: white;
+        font-size: 30px;
+        padding: 30px 40px;
+        font-weight: bold;
+        border: none;
+        transition: transform 1s ease;
+}
+#button1{
+background-color: #ffa200;
+}
+#button2{
+background-color: #15c1e5;
+}
+#button3{
+background-color: #9bba1f;
+}
+#second-papa button{
+    margin-top: 40px;
+}
+#second-papa button:hover{
+    background-color: #15c1e5;
+}
+#second-papa #button2:hover{
+    background-color: #ffa200;
+}
+/* End Of Section 2 */
+/* Beginning Of Section 3 */
+#third-papa{
+    background-image: url("https://livedemo00.template-help.com/wt_48443/images/parallax-1.jpg");
+    height: 80vh;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+}
+#third-papa div{
+    width: 60%;
+}
+#third-papa h1{
+    font-size: 80px;
+    color: #15c1e5;
+}
+#third-papa p{
+    width: 75%;
+    font-size: 25px;
+    color: gray;
+    margin-block: 40px;
+}
+#third-papa button{
+    background-color: #9bba1f;
+}
+#third-papa button:hover{
+    background-color: #15c1e5;
+}
+/* End Of The Section 3 */
+/* Beginning Of Section 4 */
+#fourth-papa{
+background-color: #ffa200;
+padding: 40px;
+color: white;
+}
+#teacher-parents{
+    display: flex;
+}
+#fourth-papa img{
+    border-radius: 50%;
+    width: 400px;
+    margin: 30px;
+}
+#fourth-papa h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+#fourth-papa p{
+    margin: 20px;
+    text-align: center;
+}
+.names{
+    font-size: 25px;
+    text-align: center;
+}
+.names:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+.description{
+    font-size: 20px;
+}
+/* End Of The Main And Section 4 */
+/* Beginning Of The Footer */
+#legs{
+    background-color: #15c1e5;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 80px;
+    color: white;
+}
+#legs a{
+    text-decoration: none;
+}
+#legs ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-block: 40px;
+}
+#legs img{
+    width: 300px;
+    margin-bottom: 40px;
+}
+#legs h2{
+    font-size: 50px;
+}
+#legs h2:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+#second-son{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+#second-son .icon{
+    font-size: 30px;
+    gap: 50px;
+    text-align: center;
+    margin: 10px;
+    padding: 25px 30px;
+    transition: all 1s ease;
+}
+#second-son .icon:hover{
+    background-color: #9bba1f;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+#facebook{
+    background-color: rgb(64, 64, 194);
+}
+#twitter{
+    background-color: rgb(26, 206, 206);
+}
+#rss{
+    background-color: rgb(248, 114, 25);
+}
+.links{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.links:hover{
+    color: darkblue;
+}
+#the-home{
+    color: darkblue;
+}
